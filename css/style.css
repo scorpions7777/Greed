@@ -1,0 +1,58 @@
+.header{
+    background: #333333;
+    height: 50px;
+    padding: 15px 0;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation__item {
+    color: beige;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 0;
+
+}
+
+.header__cart{
+    width: 50px;
+    height: 50px;
+    background: url("../img/icon-photo.png") right no-repeat;
+    background-size: contain;
+
+}
+
+.foto {
+    position: relative;
+    overflow: hidden;
+}
+
+.like {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    left: 0;
+    background: rgba(0,0,0,0.3);
+    transition: all .3s;
+
+}
+
+.like__img {
+    position: absolute;
+    left: 340px;
+    bottom: 10px
+}
+
+.foto:hover .like {
+    top: 0;
+}
+
+
+
+
